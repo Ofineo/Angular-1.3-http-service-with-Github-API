@@ -1,0 +1,18 @@
+/* Styles go here */
+
+#title{
+  background:darkgrey;
+  font-variant:Small-caps;
+  
+}
+body {
+  color: blue;
+  background: lightgrey;
+}
+#myPic{
+    width:100%;
+    max-width:100px;
+}
+#userDetails{
+  color:black;
+}

@@ -1,0 +1,20 @@
+<div>
+  Open issues {{repo.open_issues_count}}
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Picture</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="contributor in contributors ">
+          <td>{{contributor.login}}</td>
+          <td><img id="myPic" ng-src={{contributor.avatar_url}} title="{{contributor.login}}" /></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<a href="#/main">Back to search</a>
